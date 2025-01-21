@@ -1,0 +1,34 @@
+def main():
+   # This is the main function.  all your main code goes here.  
+   # You can call other functions from here
+   x=2
+   y=6
+   z=x+y
+   print(z)
+  
+#slice
+"abcdef"[0:3:6]
+
+#find, method call
+"abcdef".find9("cd")
+
+#control statements
+if a==0:
+  b=1
+  if c<0 and d>0
+    b=2
+elif a>0:
+  b=3
+else:
+  for i in range(4)
+    b=4
+    while b>0:
+      print (b)
+      b=b-1
+#gives a jump out for loop
+    if i==j: break
+  
+
+# This is the call to the Function main().  You should always 
+# have a main() and def main(): as part of all your programs
+main()
