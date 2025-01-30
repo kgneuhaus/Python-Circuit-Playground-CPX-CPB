@@ -1,0 +1,72 @@
+# Python Lab 1 - Asking Questions - Introduction
+print('''When you are making a variable assignment you use the "=" operator.''')
+x = 7
+print("x =",x)
+#prints: x=7
+
+x = 25
+print("x =",x)
+#prints: x=25
+
+x = 42
+print("x =",x)
+#prints: x=42
+
+print(''' When you are asking a question, you are performing a comparison, and use the "==" operator.
+The comparison operator == compares two operands and produces "True" if they are equal and "False" if they are not:''')
+x = 7
+y = 9
+z = 7
+print('x =',x,'  # This is an assignment')
+#will print: x=7, this is an assignment as it declares the variable x=7 with one "="
+
+print('y =',y,'  # This is an assignment')
+#will print: y=9, this is an assignment as it declares the variable x=7 with one "="
+
+print('z =',z,'  # This is an assignment')
+#will print: z=7, this is an assignment as it declares the variable x=7 with one "="
+
+print("(x == z) is",x == z,'  # This is a comparison')
+#will print: (x == z) is true, this is a comparison as it compares the value of x and z with two "=="
+
+print("(x == y) is",x == y,'  # This is a comparison')
+#will print: (x == y) is false, this is a comparison as it compares the value of x and y with two "=="
+
+print("(z == y) is",z == y,'  # This is a comparison')
+#will print: (z == y) is false, this is a comparison as it compares the value of z and y with two "=="
+
+#OTHER COMPARISONS:
+x == y       # x is equal to y
+x != y       # x is not equal to y
+x > y        # x is greater than y
+x < y        # x is less than y
+x >= y       # x is greater than or equal to y
+x <= y       # x is less than or equal to y
+x is y       # x is the same as y
+x is not y   # x is not the same as y
+
+print('''When asking a question, the answer is Boolean. Boolean means it can only be "TRUE" or "FALSE", 1 or 0.  
+If you are performing a comparison or evaluation, the answer will be Booliean, "TRUE" or "FALSE".  With that 
+answer, you can make program flow decisions.''')
+x=5
+y=9
+print("The variable or object",x, "is type", type(x))
+print("type(",y,'==',x,") is ",type(y == x))
+print('type(True") is ',type(True))
+print('type(Fasle") is ',type(False))
+
+print('''
+Challenge # 1
+----------------------------------------------------
+Can you explain?
+
+What do the following mean?
+1) Assignment 
+2) Comparison
+3) Evaluation
+4) What is the difference between "=" and "=="
+5) Boolean
+      
+Hint: https://www.w3schools.com/python/python_operators.asp
+---
+''')
