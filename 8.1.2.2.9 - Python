@@ -13,9 +13,12 @@ print(type(user_guess))
 print("Computer Guess =", user_guess)
 
 if user_guess == number_guess:
-  print("Users Guess = Number Guess")
+  print("Computer Guess = Number Guess")
+
+elif user_guess < number_guess:
+  print("Computer Guess < Number Guess")
 
 else:
-    print("Users Guess isn't equal to the Number Guess")
+    print("Computer Guess isn't equal to the Number Guess")
 
 print('Try Again')
