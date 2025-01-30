@@ -1,0 +1,20 @@
+#Change the values of x and y to see the results of the comparisons
+x =  5
+y =  9
+
+if x == y:
+  print(" x = y ")
+if x != y
+  print(" x doesnt = y ")
+if x > y:
+  print(" x > y ")
+if x < y:
+  print(" x < y ")
+if x <= y:
+  print(" x <= y ")
+if x >= y:
+  print(" x >= y ")
+if x is y:
+  print(" x is the same as y ")
+if x is not y:
+  print(" x is not the same as y ")
