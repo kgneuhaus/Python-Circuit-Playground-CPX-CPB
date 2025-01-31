@@ -1,0 +1,26 @@
+# this is my number guessing program
+print('This is a Guessing Game')
+print("Ready to play?") 
+
+print("Enter your number:")
+
+try:
+    number_guess = int(input())
+    print("Your guess = ", number_guess)
+    print(type(number_guess))
+    
+    user_guess = 5
+    print(type(user_guess))
+    print("Computer Guess =", user_guess)
+
+    if user_guess == number_guess:
+      print("Computer Guess = Number Guess")
+
+    else:
+        print("Computer Guess doesn't equal Number Guess")
+
+except:
+    print("please enter a NUMBER 1-10")
+
+
+print('Play Again')
