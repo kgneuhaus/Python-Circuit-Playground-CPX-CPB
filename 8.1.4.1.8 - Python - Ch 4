@@ -1,0 +1,10 @@
+fibonacci_sequence = [0,1,1,2,3, 5, 8, 13, 21, 34]
+
+fibonacci_sequence = [0,1]
+print(fibonacci_sequence)
+
+fibonacci_sequence.append(fibonacci_sequence[0]+fibonacci_sequence[1])
+print(fibonacci_sequence)
+
+fibonacci_sequence.append(fibonacci_sequence[0]+fibonacci_sequence[1]+fibonacci_sequence[2])
+print(fibonacci_sequence)
