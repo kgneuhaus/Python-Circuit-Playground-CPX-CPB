@@ -1,0 +1,16 @@
+print("Starting The Code Challenge")
+# Declare Any main() Variables - (Not Global)
+print('Enter Your Code Here:')
+z = int(input())
+x = 42
+y = z + x
+
+print("z=", z)
+print("x=", x)
+print("y=z+x")
+print("y=", y)
+
+print("Ending The Code Challenge")
+
+for my_variable in range(1,6) :
+  print(my_variable)
