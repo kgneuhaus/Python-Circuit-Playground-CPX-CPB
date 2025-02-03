@@ -1,0 +1,17 @@
+my_list = [8,2,6,4,5,7,1,8,3]
+print(my_list)
+# fixing index 0
+my_list[0] = 1
+print(my_list)
+
+# fixing index 2
+my_list[2] = 3
+print(my_list)
+
+# fixing index 5 thru 6 (up to 7)
+my_list[5:8] = 6, 7, 8
+print(my_list)
+
+# fixing index -1
+my_list[-1] = 9
+print(my_list)
