@@ -1,0 +1,16 @@
+def sum_and_avg(t):
+    x,y,z = t 
+    s = x + y + z
+    a = s/3
+    return(s, a,)
+
+my_t = (2,6,42,)
+(sum, avg) = sum_and_avg(my_t)
+my_t2 = (sum, avg)
+print('This is the value of the Tuple returned:')
+print('Touple =', my_t2)
+print('Touple is of type',type(my_t2))
+print('Sum =', sum)
+print('Sum is of type',type(sum))
+print('Avg =', avg)
+print('Avg is of type',type(avg))
