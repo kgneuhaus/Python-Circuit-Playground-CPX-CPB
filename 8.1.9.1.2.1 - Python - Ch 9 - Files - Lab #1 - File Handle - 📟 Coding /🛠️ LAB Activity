@@ -1,0 +1,33 @@
+# Challenge 1
+# Describe the parts of the file handle
+print('''
+Challenge # 1
+----------------------------------------------------
+Can you explain each part of the file handle? 
+
+What does the following parts of the file handle mean?
+1) _io.TextIOWrapper
+2) name='matrix.txt'
+3) mode='r'
+4) encoding='UTF-8'>
+      
+Hint: https://www.w3schools.com/python/python_file_handling.asp
+---
+''')
+# -------------------------------------------------
+print('''Answer to Challenge 1
+-------------------------------------------------''')
+# What does the following parts of the file handle mean?
+# 1) _io.TextIOWrapper 
+# 2) name='text-file-matrix.txt' 
+# 3) mode='r' 
+# 4) encoding='UTF-8'>
+# print('The parts of a file handle are:')
+# -----------------------------
+xfile = open('text-file-matrix.txt')
+print(xfile)
+print('''
+1) _io.TextIOWrapper: This is the return type from open(matrix.txt)
+2) name='matrix.txt': This is the name of the file
+3) mode='r': Mode is set to run
+4) encoding='UTF-8'>: Is a common character encoding''')
